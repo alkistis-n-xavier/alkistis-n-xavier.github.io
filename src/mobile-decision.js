@@ -2,7 +2,7 @@ var mobileRe = "/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFro
 
 var siteHome = "alkistis-n-xavier.github.io/"
 var locParts = document.location.href.split(siteHome);
-var loc = locParts[locParts.length - 1];
+var loc = locParts[locParts.length - 1].split("?")[0];
 
 var desktopSites = {
 	'save-the-date.html' : 'index.html'
